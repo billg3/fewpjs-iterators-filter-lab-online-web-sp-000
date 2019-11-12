@@ -5,8 +5,8 @@ function findMatching (drivers,string) {
 }
 
 
-function findMatching (drivers, string ) {
+function fuzzyMatch (drivers, string ) {
 
   return drivers.filter(driver => string.charAt(0) === driver.charAt(0))
-  
+
 }
